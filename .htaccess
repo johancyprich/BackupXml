@@ -1,0 +1,16 @@
+# -FrontPage-
+
+IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
+
+<Limit GET POST>
+order deny,allow
+deny from all
+allow from all
+</Limit>
+<Limit PUT DELETE>
+order deny,allow
+deny from all
+</Limit>
+AuthUserFile /homepages/htdocs/_vti_pvt/service.pwd
+AuthGroupFile /homepages/htdocs/_vti_pvt/service.grp
+AddType x-mapp-php5 .php
