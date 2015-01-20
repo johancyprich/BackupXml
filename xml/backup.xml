@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BackupXml>
+  <!-- class.BackupXml.php Settings -->
+  <!-- Version 1.0.0 -->
+  
+  <!-- Set the e-mail server information and the backup path. -->
+  
+  <Configuration>
+    <AdminUsername>admin</AdminUsername>
+    <AdminPassword>password</AdminPassword>
+    <EmailReport>1</EmailReport>
+    <UseSmtpAuthorization>0</UseSmtpAuthorization>
+    <SmtpAddress>smtp.mail.com</SmtpAddress>
+    <SmtpUsername>user@email.com</SmtpUsername>
+    <SmtpPassword>password</SmtpPassword>
+    <FromEmail>user@email.com</FromEmail>
+    <FromName>BackupXML</FromName>
+    <Prefix>backup</Prefix>
+    <UseHost>0</UseHost>
+    <UsePort>0</UsePort>
+    <UseUsername>0</UseUsername>
+    <BackupPath>backup/</BackupPath>
+  </Configuration>
+  
+  <!-- Set the recipients for the log file. -->
+  
+  <Users>
+    <User>user@email.com</User>
+  </Users>
+  
+  <!-- Set the connection info for each database. DatabaseServer is either MySQL or PostgreSQL. -->
+  
+  <Databases>
+    <DatabaseServer>MySQL</DatabaseServer>
+    <Host>mysql</Host>
+    <Port></Port>
+    <Username>dbuser</Username>
+    <Password>dbpassword</Password>
+    <Database>websitedb</Database>
+  </Databases>
+
+  <!-- Set the folders that are to be backup up. -->
+  
+  <Folders>
+    <Folder Base="/homepages/htdocs/">www.website.com</Folder>
+  </Folders>
+</BackupXml>
