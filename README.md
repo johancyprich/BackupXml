@@ -6,8 +6,7 @@ Date: January 19, 2015<br />
 License: The MIT License (MIT)
 
 Author: Johan Cyprich<br />
-Author E-mail: jcyprich@live.com<br />
-Author URL: www.cyprich.com
+Author E-mail: jcyprich@live.com
 
 
 REQUIREMENTS
