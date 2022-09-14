@@ -13,7 +13,6 @@
   // LICENSE: The MIT License
   // AUTHOR: Johan Cyprich
   // AUTHOR_EMAIL: jcyprich@live.com
-  // AUTHOR_URL: www.cyprich.com 
   //
   // PURPOSE:
   //   Backs up folders and databases on a Linux system.
